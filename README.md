@@ -2,7 +2,7 @@
  * @Author: 吴俊杰 20717@etransfar.com
  * @Date: 2022-05-25 14:51:28
  * @LastEditors: 吴俊杰 20717@etransfar.com
- * @LastEditTime: 2022-09-16 09:52:30
+ * @LastEditTime: 2022-09-29 10:39:02
  * @FilePath: /个人工作/w-cli/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -21,3 +21,18 @@
 - inquirer: 规交互式命令行
 - download-git-repo: git模板下载
 
+
+### 安装
+
+```shell
+# install 
+$ npm install -g hero-cli
+# or yarn
+$ yarn global add hero-cli
+```
+
+### 使用 
+
+```shell
+$ hero-cli create <name> [-f|--force]
+```
